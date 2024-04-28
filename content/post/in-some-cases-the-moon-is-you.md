@@ -1,5 +1,5 @@
 +++
-title = 'In Some Cases the Moon Is You'
+title = 'In Some Cases, the Moon Is You'
 date = 2024-04-23
 slug = "in-some-cases-the-moon-is-you"
 categories = [ "Post", "Essay" ]
