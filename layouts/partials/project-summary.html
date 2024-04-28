@@ -1,0 +1,8 @@
+<div class="project-summary">
+  <h3>{{ .Title }}</h3>
+  {{ with index .Params.images 0 }}
+  <img src="{{ . | relURL }}" alt="Project image">
+  {{ end }}
+  <p>{{ .Description }}</p>
+  <a href="{{ .RelPermalink }}">More</a>
+</div>

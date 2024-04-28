@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ partial "info.html" . }}
+{{ .Content }}
+<h2 id="projects">Projects</h2>
+{{ range where .Site.RegularPages "Type" "projects" }}
+{{ partial "project-summary.html" . }}
+{{ end }}
+{{ end }}

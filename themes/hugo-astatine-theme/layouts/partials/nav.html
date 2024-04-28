@@ -1,0 +1,64 @@
+<nav>
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <div class="nav-main my-2.5">
+      <a href="{{ .Site.BaseURL }}" class="nav-title py-2.5 text-2xl
+               text-zinc-600 dark:text-zinc-300 hover:border-b-0">{{ .Site.Title }}</a>
+    </div>
+    <button type="button" onclick="toggleMenu()" class="inline-flex items-center p-2 ml-3
+                  text-sm text-gray-500
+                  rounded-lg md:hidden hover:bg-gray-100
+                  focus:outline-none focus:ring-2
+                  focus:ring-gray-200 dark:text-gray-400
+                  dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default"
+      aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
+                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1z" clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="grid md:grid-flow-col items-center justify-between text-lg
+                 my-2.5 grid-cols-1 pl-0 text-center">
+        {{ range sort .Site.Menus.main "Weight" }}
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+        <li class="h-7 pl-2.5 pr-0 list-none">
+          <button type="button" onclick="toggleMode()" class="h-full" aria-label="Toggle between dark and light mode">
+            <!-- Light Mode SVG -->
+            <svg class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline" id="light-mode-button-img"
+              aria-hidden="true" viewBox="0 0 165.46 165.44" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                    stroke: #e6e7e8;
+                    stroke-linecap: round;
+                    stroke-miterlimit: 10;
+                    stroke-width: 21px
+                  }
+                </style>
+              </defs>
+              <circle class="cls-1" cx="82.7" cy="83.68" r="27.79" />
+              <path class="cls-1"
+                d="M82.7 10.5v17.42m72.26 55.37h-17.42m-109.62 0H10.5m72.2 71.65v-17.42M31.42 32.02l12.32 12.32m90.24-11.94l-12.32 12.32m-77.5 77.51l-12.33 12.32m101.73-.39l-12.32-12.32" />
+            </svg>
+            <!-- Dark Mode SVG -->
+            <svg class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden" id="dark-mode-button-img" aria-hidden="true"
+              viewBox="0 0 115.34 149.44" xmlns="http://www.w3.org/2000/svg">
+              <path d="M57.34 74.72a61.66 61.66 0 0155.5-61.34 72.22 72.22 0 100 122.68 61.65 61.65 0 01-55.5-61.34z"
+                fill="#231f20" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" />
+            </svg>
+          </button>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

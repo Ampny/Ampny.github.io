@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="project-article">
+  <h1>{{ .Title }}</h1>
+  {{ range .Params.images }}
+  <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+  {{ end }}
+  <div class="project-description">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

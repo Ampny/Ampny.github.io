@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Anthony&#39;s Fine Site</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Anthony&#39;s Fine Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Saturn&#39;s Moon Titan With RADAR Flybys</title>
+      <link>http://localhost:1313/projects/titan-radar/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/titan-radar/</guid>
+      <description>Sample text from some writing when I started this project:&#xA;The surface properties of planetary bodies offer crucial insights into their composition and geological processes. Understanding these characteristics is particularly compelling for Saturn&amp;rsquo;s moon, Titan, due to its diverse geology and fascinating environment. Our research uses radar backscatter modeling to elucidate the surface properties of Titan&amp;rsquo;s most abundant terrain, the plains (Lopes, 2020). In addition, we emphasize the benefit of integrating Synthetic Aperture Radar (SAR) and altimetry data, both derived from the Cassini RADAR instrument.</description>
+    </item>
+    <item>
+      <title>NASA Trajectory Reconstruction</title>
+      <link>http://localhost:1313/projects/nasa-loftid/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nasa-loftid/</guid>
+      <description>Here are some details about my first project:&#xA;It was challenging. I learned a lot. It&amp;rsquo;s something I&amp;rsquo;m proud of. </description>
+    </item>
+  </channel>
+</rss>

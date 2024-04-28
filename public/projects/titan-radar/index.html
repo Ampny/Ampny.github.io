@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Exploring Saturn&#39;s Moon Titan With RADAR Flybys - Anthony&#39;s Fine Site</title>
+<meta property="og:title" content="Exploring Saturn&#39;s Moon Titan With RADAR Flybys - Anthony&#39;s Fine Site">
+<meta property="og:type" content="article">
+
+
+<meta property="og:image" content="img/headshot.png">
+
+<meta property="og:url" content="http://localhost:1313/projects/titan-radar/"><meta property="og:description" content="I determined the composition of plains on Titan&#39;s surface using RADAR data collected by the Cassini satellite orbiting Saturn.">
+<meta name="Description" property="description" content="I determined the composition of plains on Titan&#39;s surface using RADAR data collected by the Cassini satellite orbiting Saturn.">
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/style.min.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link href="http://localhost:1313/index.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+<meta name="theme-color" content="#ffffff">
+
+
+<script>function updateMode(){localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function toggleMode(){localStorage.theme==="dark"?localStorage.theme="light":localStorage.theme="dark",updateMode()}window.onload=updateMode();function toggleMenu(){let e=document.getElementById("navbar-default");e.classList.contains("hidden")?e.classList.remove("hidden"):e.classList.add("hidden")}</script>
+
+  </head>
+  <body>
+    <header class="md:px-0 px-2">
+        <nav>
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <div class="nav-main my-2.5">
+      <a href="http://localhost:1313/" class="nav-title py-2.5 text-2xl
+               text-zinc-600 dark:text-zinc-300 hover:border-b-0">Anthony&#39;s Fine Site</a>
+    </div>
+    <button type="button" onclick="toggleMenu()" class="inline-flex items-center p-2 ml-3
+                  text-sm text-gray-500
+                  rounded-lg md:hidden hover:bg-gray-100
+                  focus:outline-none focus:ring-2
+                  focus:ring-gray-200 dark:text-gray-400
+                  dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default"
+      aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
+                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1z" clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="grid md:grid-flow-col items-center justify-between text-lg
+                 my-2.5 grid-cols-1 pl-0 text-center">
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/">About Me</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/#projects">Projects</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/post/">Blog</a>
+        </li>
+        
+        <li class="h-7 pl-2.5 pr-0 list-none">
+          <button type="button" onclick="toggleMode()" class="h-full" aria-label="Toggle between dark and light mode">
+            
+            <svg class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline" id="light-mode-button-img"
+              aria-hidden="true" viewBox="0 0 165.46 165.44" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                    stroke: #e6e7e8;
+                    stroke-linecap: round;
+                    stroke-miterlimit: 10;
+                    stroke-width: 21px
+                  }
+                </style>
+              </defs>
+              <circle class="cls-1" cx="82.7" cy="83.68" r="27.79" />
+              <path class="cls-1"
+                d="M82.7 10.5v17.42m72.26 55.37h-17.42m-109.62 0H10.5m72.2 71.65v-17.42M31.42 32.02l12.32 12.32m90.24-11.94l-12.32 12.32m-77.5 77.51l-12.33 12.32m101.73-.39l-12.32-12.32" />
+            </svg>
+            
+            <svg class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden" id="dark-mode-button-img" aria-hidden="true"
+              viewBox="0 0 115.34 149.44" xmlns="http://www.w3.org/2000/svg">
+              <path d="M57.34 74.72a61.66 61.66 0 0155.5-61.34 72.22 72.22 0 100 122.68 61.65 61.65 0 01-55.5-61.34z"
+                fill="#231f20" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" />
+            </svg>
+          </button>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    </header>
+    <main class="content h-card container mt-2 m-auto
+                 leading-loose md:px-0 px-2 z-0"
+          role="main">
+    
+<article class="project-article">
+  <h1>Exploring Saturn&#39;s Moon Titan With RADAR Flybys</h1>
+  
+  <img src="/img/titanlake.jpg" alt="Exploring Saturn&#39;s Moon Titan With RADAR Flybys">
+  
+  <img src="/sylph.png" alt="Exploring Saturn&#39;s Moon Titan With RADAR Flybys">
+  
+  <div class="project-description">
+    <p>Sample text from some writing when I started this project:</p>
+<p>The surface properties of planetary bodies offer crucial insights into their composition and geological processes. Understanding these characteristics is particularly compelling for Saturn&rsquo;s moon, Titan, due to its diverse geology and fascinating environment. Our research uses radar backscatter modeling to elucidate the surface properties of Titan&rsquo;s most abundant terrain, the plains (Lopes, 2020). In addition, we emphasize the benefit of integrating Synthetic Aperture Radar (SAR) and altimetry data, both derived from the Cassini RADAR instrument. SAR data captures backscatter at incidence angles usually larger than about 20°, whereas altimetry records backscatter at nearly 0°, providing a different perspective (Lorenz, 2003). Historically, analyses of Cassini&rsquo;s RADAR data have primarily employed SAR data, often neglecting altimetry observations. Our research seeks to enhance understanding of Titan&rsquo;s surface properties through a more comprehensive analysis, incorporating both data types.
+Previous studies&rsquo; limitations motivate this project, as they have predominantly utilized SAR data and focused on &ldquo;interesting&rdquo; nonhomogeneous terrain. Such terrain, while intriguing, may not represent Titan&rsquo;s majority surface and may yield less reliable backscatter analysis results due to unmet model assumptions about surface uniformity. By integrating altimetry data and concentrating on the plains region—Titan&rsquo;s most homogeneous and flat terrain—we aim to generate more comprehensive, robust, and physically grounded results.
+The implications of this research extend beyond understanding the plains themselves. By investigating the plains—the most prevalent terrain on Titan—we glean valuable information leading to a more holistic comprehension of the moon’s surface processes. Moreover, incorporating altimetry data into backscatter analysis signifies a methodological advancement in backscatter modeling, allowing us to account for low incidence angle behavior, which reveals critical information on quasi-specular scattering. This underlines the significance of an inclusive approach to backscatter modeling.
+The structure of this paper is as follows: the Methods section outlines our approach to selecting study sites and collecting SAR and altimetry data, along with the data processing steps, including co-registration and region-of-interest selection. The Results section presents our backscatter analysis findings, both including and excluding altimetry data. Lastly, the Discussion section interprets these results, addressing their implications, the limitations of our study, and potential future research directions.
+Methods
+The analysis of radar backscatter typically involves extracting the backscattered power from a specific location and plotting it against the incidence angle of the radar instrument with the surface. To cover a comprehensive range of angles, multiple observations are necessary. The resulting backscatter curve&rsquo;s shape is influenced by surface and shallow subsurface properties, such as composition and surface roughness. These curves allow us to compare study areas and estimate surface and subsurface characteristics quantitatively. In our investigation of Titan&rsquo;s plains units, we employed both the SAR and altimetry modes of the Cassini RADAR instrument. This approach facilitated data collection over a wider range of incidence angles than using SAR images alone, which is what has been done in previous analysis.
+The initial step of our process was site selection using ArcGIS Pro. We targeted sites identified as plains, ensuring coverage from multiple SAR images and at least one altimetry track. We selected three sites: one near each pole and one at a mid-latitude location, as shown in Figure 1.</p>
+
+  </div>
+</article>
+
+    </main>
+    <footer class="footer container h-10 text-center mt-1">
+<hr class="my-4">
+  <ul class="pl-0 mt-1">
+    
+    <li class="ml-2 first:before:content-none before:content-['•']
+               inline-block list-none">
+      <a class="ml-2 text-neutral-800
+                dark:text-neutral-400 border-none"
+          href="https://github.com/hugcis/hugo-astatine-theme">Code</a>
+    </li>
+    <li class="ml-2 first:before:content-none before:content-['•']
+                text-neutral-800 dark:text-neutral-400 inline-block list-none">
+      <span class="ml-2">© Anthony Fine 2024</span>
+    </li>
+  </ul>
+</footer>
+
+
+
+  </body>
+</html>

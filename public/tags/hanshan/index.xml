@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hanshan on Anthony&#39;s Fine Site</title>
+    <link>http://localhost:1313/tags/hanshan/</link>
+    <description>Recent content in Hanshan on Anthony&#39;s Fine Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hanshan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Only a Fool Would Say That</title>
+      <link>http://localhost:1313/only-a-fool-would-say-that/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/only-a-fool-would-say-that/</guid>
+      <description>I went through a breakup last month, and it&amp;rsquo;s been the source of seemingly endless emotions. This week, I&amp;rsquo;ve been getting familiar with embarrassment. There&amp;rsquo;s the embarrassment over the details: &amp;ldquo;why did I react this way to that situation&amp;rdquo;, or &amp;ldquo;Gah! I wish I never said that.&amp;rdquo; But there&amp;rsquo;s also a pervasive, more subtle embarrassment in the situation. It&amp;rsquo;s embarrassing to have had such grand plans and to have cared so much, and have it all fall away into nothing.</description>
+    </item>
+  </channel>
+</rss>
