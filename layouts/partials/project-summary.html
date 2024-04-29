@@ -1,8 +1,27 @@
-<div class="project-summary">
-  <h3>{{ .Title }}</h3>
-  {{ with index .Params.images 0 }}
-  <img src="{{ . | relURL }}" alt="Project image">
-  {{ end }}
-  <p>{{ .Description }}</p>
-  <a href="{{ .RelPermalink }}">More</a>
+<div class="project-wrapper w-full flex flex-wrap items-center
+            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
+            leading-tight justify-around" id="{{anchorize .Title}}">
+  <div class="project-images flex flex-row basis-1/2 grow gap-4">
+    {{ range .Params.images }}
+    <div class="project-image-wrapper shrink-0" style="flex: 1; min-width: 0; max-width: 100%;">
+      <!-- Inline styles to make the image responsive and maintain aspect ratio -->
+      <img src="{{ . | relURL }}" alt="Project image"
+        style="width: auto; height: auto; max-width: 100%; object-fit: contain;" />
+    </div>
+    {{ end }}
+  </div>
+  <div class="project-details grow basis-1/2 my-1.5 mx-2">
+    <h3 class="project-title">
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+      </a>
+    </h3>
+    <div class="project-description my-1.5 text-base">
+      {{ .Description }}
+    </div>
+    <a href="{{ .RelPermalink }}" class="project-link bg-sky-600 dark:bg-sky-700
+                         hover:bg-sky-800 dark:hover:bg-sky-500 text-white
+                         dark:text-zinc-200 dark:hover:text-gray-800
+                         hover:text-gray-900 rounded-sm p-1">More</a>
+  </div>
 </div>
