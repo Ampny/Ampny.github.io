@@ -4,7 +4,7 @@
 name: "Anthony Fine"
 # Your profile picture
 imgname: 
-  name: "img/sylph.png"
+  name: "img/site/headshot.png"
   alt: "Me!"
   type: image/png
 # More sources can be added (optional) using 

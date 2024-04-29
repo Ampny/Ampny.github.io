@@ -4,7 +4,7 @@ date: 2024-04-26
 images:
   - img/titan/saturn.webp
   - img/titan/dunes-cropped.jpeg
-description: "Plains terrain cover most of the surface on Saturn's moon Titan, but we have a poor understanding of what they are made and how they are formed. Here, I made a robust estimate of the surface composition of Titan's plains using RADAR processing techniques with data collected by the Cassini satellite."
+description: "Plains terrain cover most of the surface on Saturn's moon Titan, but we have a poor understanding of what substance they are made and how they are formed. Here, I made a robust estimate of the surface composition of Titan's plains using RADAR modeling techniques with data collected by the Cassini satellite."
 ---
 
 Sample text from some writing when I started this project:
