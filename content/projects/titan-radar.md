@@ -1,10 +1,10 @@
 ---
-title: "Exploring Saturn's Moon Titan With RADAR Flybys"
+title: "Exploring Titan's Plains with RADAR Modeling"
 date: 2024-04-26
 images:
   - img/titan/saturn.webp
   - img/titan/dunes-cropped.jpeg
-description: "Plains terrain cover most of the surface on Saturn's moon Titan, but we have a poor understanding of what substance they are made and how they are formed. Here, I made a robust estimate of the surface composition of Titan's plains using RADAR modeling techniques with data collected by the Cassini satellite."
+description: "On Titan, Saturn's largest moon, most of the surface is plains terrain. Although they are so important to the geology of the moon, we have a poor understanding of the terrain's basic properties. What are they made of? How are they formed? In this paper, I made the first robust estimate of the surface composition of Titan's plains using RADAR modeling techniques with data collected by the Cassini satellite."
 ---
 
 Sample text from some writing when I started this project:
