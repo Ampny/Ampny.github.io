@@ -11,7 +11,7 @@ This last Monday I went to see my good friend Isiah's piano recital at Ithaca Co
 
 It's a familiar feeling, especially regarding creativity. I often feel that I can appreciate the beauty of art, but somehow I lack any spark to really create. It's a crummy place to be. It transforms the joy of appreciating something wonderful into a place of lack, and the freedom of creating into a place of discursive judgement. It's not nice for myself, or the person creating!
 
-That day, I read this poem by Ryokan, translated in *Sky Above, Great Wind*. 
+That day, I read this poem by Ryokan, translated by Kazuaki Tanahashi in *Sky Above, Great Wind*. 
 
 >I don't regard my life \
 >as insufficient. \
@@ -19,9 +19,9 @@ That day, I read this poem by Ryokan, translated in *Sky Above, Great Wind*.
 >there is a moon; \
 >there are flowers.
 
-The first two lines slow me down in a very alive way. They are really quite practical, and yet I think to fully understand that phrase would be enlightenment! 
+The first two lines slow me down in a very alive way. They are quite practical, and yet I think to fully understand them would be enlightenment! 
 
-The second section feels personally written for me to soothe my feeling of lack. It is not by encouragement or praise, saying "Really, you posses what you want to posses!" or "You are creative!" Instead, it asks us to consider our sense of self, and what we understand to be our boundaries. If we see our body and mind as separated from the outside world, then it's no surprise we feel incomplete. Instead, we can expand the small sense of self to permeate what had felt separate and lacking.  We can play within those boundaries, but recognize that they exist only by convention, not as an ultimate truth. What a relief! 
+The second section points toward why this is, and why we ought not feel lacking. It is not by encouragement or praise, saying "Really, you posses what you feel you don't!" or "You are creative!" Instead, it asks us to consider our sense of self, and what we understand to be our boundaries. If we see our body and mind as separated from the outside world, then it's no surprise we feel incomplete. Instead, we can expand the small sense of self to permeate what had felt separate and lacking. We can see those bondaries and play within them, but don't get fooled -- understand that they exist only by convention, not as an ultimate truth. What a relief! 
 
 Saigyo touches on the same feeling in this springtime poem, translated by Burton Watson in *Poems of a Mountain Home*:
 
@@ -31,7 +31,7 @@ Saigyo touches on the same feeling in this springtime poem, translated by Burton
 >see the blossoms at their best \
 >on all ten thousand mountains!
 
-It's an image that makes me smile -- thousands of the old hermit Saigyo spread across each mountain, like an army of ants busily inspecting each cherry blossom. It's a desire I can understand! I find myself wanting it all, to see everything and know everything and do everything there is to do. Again, from within the confines of our own skin, it's fruitless and even disparaging. All I'll see is are these few cherry trees in this measly lifetime of a few dozen years? But then again, that lack dissolves after stepping back and allowing the sense of self to expand. Watson, in a translator's note, mentions that Buddhas dividing the body into countless selves is common in the scriptures. Perhaps, once we let go of the small sense of self, it becomes no problem at all to enjoy each of the blossoms blooming on each mountain, or even to be the blossoms and be the mountain! 
+It's an image that makes me smile -- thousands of the old hermit Saigyo spread across each mountain, like an army of ants busily inspecting each cherry blossom. It's a desire I can understand! I find myself wanting it all, to see everything and know everything and do everything there is to do. Again, from within the confines of our own skin, it's fruitless and even disparaging. All I'll see is are these few cherry trees in this measly lifetime of a few dozen years? But then again, that lack dissolves after stepping back and allowing the sense of self to expand. Paradoxically, once we let go of grasping those things that felt faraway and separate become suddenly immediate, even intimate. In a translator's note to this poem, Watson mentions that Buddhas dividing the body into countless selves is common in the sutras. Perhaps, once we let go of the small sense of self it becomes no problem at all to enjoy each of the blossoms blooming on each mountain, or even to be the blossoms and be the mountain! 
 
 P.S. 
 When we consider that every part of living is a creative act, the lesson here becomes all-encompassing. It says something very fundamental about love and respect. How could we love something if we feel we have to posses it? How could we respect something if we need it to satisfy an internal sense of lack?
