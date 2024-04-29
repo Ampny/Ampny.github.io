@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Anthony&#39;s Fine Site</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/Ampny.github.io/tags/</link>
     <description>Recent content in Tags on Anthony&#39;s Fine Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Ampny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Buddhism</title>
-      <link>http://localhost:1313/tags/buddhism/</link>
+      <link>http://localhost:1313/Ampny.github.io/tags/buddhism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/buddhism/</guid>
+      <guid>http://localhost:1313/Ampny.github.io/tags/buddhism/</guid>
       <description></description>
     </item>
     <item>
       <title>Creativity</title>
-      <link>http://localhost:1313/tags/creativity/</link>
+      <link>http://localhost:1313/Ampny.github.io/tags/creativity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/creativity/</guid>
+      <guid>http://localhost:1313/Ampny.github.io/tags/creativity/</guid>
       <description></description>
     </item>
     <item>
       <title>Poetry</title>
-      <link>http://localhost:1313/tags/poetry/</link>
+      <link>http://localhost:1313/Ampny.github.io/tags/poetry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/poetry/</guid>
+      <guid>http://localhost:1313/Ampny.github.io/tags/poetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Hanshan</title>
-      <link>http://localhost:1313/tags/hanshan/</link>
+      <link>http://localhost:1313/Ampny.github.io/tags/hanshan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hanshan/</guid>
+      <guid>http://localhost:1313/Ampny.github.io/tags/hanshan/</guid>
       <description></description>
     </item>
     <item>
       <title>Science</title>
-      <link>http://localhost:1313/tags/science/</link>
+      <link>http://localhost:1313/Ampny.github.io/tags/science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/science/</guid>
+      <guid>http://localhost:1313/Ampny.github.io/tags/science/</guid>
       <description></description>
     </item>
   </channel>

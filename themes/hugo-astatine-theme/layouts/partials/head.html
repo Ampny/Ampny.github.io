@@ -58,11 +58,11 @@
 {{ end }}
 <!-- Keywords -->
 {{- if .Keywords -}}
-<meta property="keywords" content ="{{ delimit .Keywords ", " }}">
+<meta property="keywords" content="{{ delimit .Keywords " , " }}">
 {{- end -}}
-{{- if .Params.Tags -}}
+<!-- {{- if .Params.Tags -}}
 <meta property="keywords" content ="{{ delimit (apply .Params.Tags "lower" ".") ", " }}">
-{{- end -}}
+{{- end -}} -->
 <!-- Webmention -->
 {{ if .Site.Params.Webmention }}
 <link rel="webmention" href="https://webmention.io/{{ .Site.Params.Webmention }}/webmention">
@@ -73,12 +73,11 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <!-- Icon configuration -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍃</text></svg>">
 <link rel="manifest" href="/site.webmanifest">
 <link href="{{ .Site.BaseURL }}index.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
 <meta name="theme-color" content="#ffffff">
 <!-- Common JS -->
 {{ $commonJs := resources.Get "js/common.js" | resources.Minify }}
-<script>{{ $commonJs.Content | safeJS }}</script>
+<script>{ { $commonJs.Content | safeJS } }</script>
