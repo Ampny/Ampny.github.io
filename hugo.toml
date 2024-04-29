@@ -24,7 +24,7 @@ theme = "hugo-astatine-theme"
     authorName = "Anthony Fine"
     # Main image for the author
     [params.imgname]
-        name = "img/site/headshot.png"
+        name = "img/site/headshot_cropped.png"
         alt = "Me!"
 
 # Content

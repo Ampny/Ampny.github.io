@@ -4,7 +4,7 @@ date: 2024-04-26
 images:
   - img/titan/saturn.webp
   - img/titan/dunes-cropped.jpeg
-description: "On Titan, Saturn's largest moon, most of the surface is plains terrain. Although they are so important to the geology of the moon, we have a poor understanding of the terrain's basic properties. What are they made of? How are they formed? In this paper, I made the first robust estimate of the surface composition of Titan's plains using RADAR modeling techniques with data collected by the Cassini satellite."
+description: "On Titan, Saturn's largest moon, most of the surface terrain is plains. Although plains are so prevelant on Titan, we have a poor understanding of their basic properties. The science questions we are asking are relatively basic! What is the ground made of? How are the plains formed? In this paper, I made a robust estimate of the surface composition of Titan's plains using RADAR modeling techniques with data collected by the Cassini satellite."
 ---
 
 Sample text from some writing when I started this project:
