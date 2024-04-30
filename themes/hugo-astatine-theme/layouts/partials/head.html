@@ -80,4 +80,4 @@
 <meta name="theme-color" content="#ffffff">
 <!-- Common JS -->
 {{ $commonJs := resources.Get "js/common.js" | resources.Minify }}
-<script>{ { $commonJs.Content | safeJS } }</script>
+<script>{{ $commonJs.Content | safeJS }}</script>
