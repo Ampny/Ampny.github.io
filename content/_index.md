@@ -39,6 +39,6 @@ address:
 
 # Bio
 
-I am a student at Cornell University studying Engineering Physics with a focus on Computer Science. I love the natural world and am compelled to explore it and learn our place in it. Currently, I work in space science and planetary exploration, which I find especially wonderful. I have worked at NASA Langley on spacecraft atmospheric re-entry trajectories, and I am currently working at Cornell to understand the surface of Saturn's moon Titan using remote sensing. 
+I am a student at Cornell University studying Engineering Physics with a focus on Computer Science. I love the natural world and find joy in exploring it and what it means to be a part of it! I currently work in space science and solar system exploration, which I find especially wonderful. I worked at NASA Langley on spacecraft atmospheric re-entry trajectories, and I am currently working at Cornell to make the first robust measurements of the plains on Saturn's moon Titan.
 
-I am graduating from Cornell in May 2024. After I graduate, I plan to live in a Buddhist monastery for some time, and possibly hike across the country. If you like, check the blog on this website for updates!
+I am graduating from Cornell in May 2024. After I graduate, I plan to live in a Buddhist monastery and possibly hike across the country. If you like, check the blog on this website for updates!
