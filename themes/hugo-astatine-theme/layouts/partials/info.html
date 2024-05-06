@@ -39,6 +39,12 @@
             {{ with .email }}
             <a href="mailto:{{ . }}">{{ . }}</a>
             {{ end }}
+            <br>
+            <!-- Hyperlink to the resume PDF -->
+            {{ with .resume_pdf }}
+            <a href="{{ . }}" class="resume-link" target="_blank" rel="noopener noreferrer">Résumé</a>
+            {{ end }}
+            <br>
             {{ with .emailimg }}
             <picture>
                 {{ if .dark }}

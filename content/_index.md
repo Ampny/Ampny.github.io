@@ -22,10 +22,10 @@ address:
     name: Cornell University 
     street: Ithaca, NY
     email: "alf223@cornell.edu"
+    resume_pdf: "img/site/resume_5_6_24.pdf"
 
     # postal_code: "000000"
     # locality: Earth
-
 # === Optional fields ===
 # Add an email with a mailto: hyperlink
 # Add an email "image" for spam protection. With light and dark mode
