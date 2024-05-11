@@ -5,4 +5,8 @@
 {{ range where .Site.RegularPages "Type" "projects" }}
 {{ partial "project-summary.html" . }}
 {{ end }}
+<h2 id="awards">Awards</h2>
+{{ range where .Site.RegularPages "Type" "awards" }}
+{{ partial "award-summary.html" . }}
+{{ end }}
 {{ end }}
