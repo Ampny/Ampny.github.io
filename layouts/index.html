@@ -1,11 +1,14 @@
 {{ define "main" }}
 {{ partial "info.html" . }}
 {{ .Content }}
-<h2 id="projects">Projects</h2>
+<br>
+<h1 id="projects">Projects</h2>
 {{ range where .Site.RegularPages "Type" "projects" }}
 {{ partial "project-summary.html" . }}
 {{ end }}
-<h2 id="awards">Awards</h2>
+<br>
+<br>
+<h1 id="awards">Awards</h2>
 {{ range where .Site.RegularPages "Type" "awards" }}
 {{ partial "award-summary.html" . }}
 {{ end }}
